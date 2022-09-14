@@ -1,0 +1,644 @@
+{
+  "_organizations": [
+    {
+      "OrganizationURL": "https://crm365.altercomglobal.com/alteraterdev",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "8.2.5.4",
+      "MFAAppId": "",
+      "MFAReturnUrl": "",
+      "ConnectionProtocol": 0,
+      "_projects": [
+        {
+          "Name": "PluginCodeTest.csproj",
+          "NameWithoutExtension": "PluginCodeTest",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "ProxyEnumClassesPath": "\\Enums",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ResourcesPath": "\\Web",
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "account",
+              "MetadataId": "70816501-edb9-4740-a16c-6a5efbc05d84",
+              "AutoRefreshOnChanges": true,
+              "Version": 6,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Account.cs",
+              "Name": "Account.cs",
+              "CrmId": "70816501-edb9-4740-a16c-6a5efbc05d84"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 1,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "AccountPerformanceStatus.cs",
+              "Name": "AccountPerformanceStatus.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.BasePluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 1,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "BasePlugin.cs",
+              "Name": "BasePlugin.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyBaseClass, SS.XrmToolkit.Common",
+              "Version": "4.0.0.0",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\BaseProxyClass.cs",
+              "Name": "BaseProxyClass.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_accountratingcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_AccountRating.cs",
+              "Name": "eAccount_AccountRating.cs",
+              "CrmId": "16870821-a8e2-44d5-abeb-e118057f3c58"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_accountstatus",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_AccountStatus.cs",
+              "Name": "eAccount_AccountStatus.cs",
+              "CrmId": "db315b87-057b-e811-80c8-0050569e6ddf"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_accounttype",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_AccountType.cs",
+              "Name": "eAccount_AccountType.cs",
+              "CrmId": "a7591c1a-5209-eb11-80eb-000c29d4109b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address1_addresstypecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address1_AddressType.cs",
+              "Name": "eAccount_Address1_AddressType.cs",
+              "CrmId": "9fc9a568-3c3f-40d9-8c2c-c0de00fe683d"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address1_freighttermscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address1_FreightTerms.cs",
+              "Name": "eAccount_Address1_FreightTerms.cs",
+              "CrmId": "49b63cb5-e450-4b48-b925-d4227d37b8bf"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address1_shippingmethodcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address1_ShippingMethod.cs",
+              "Name": "eAccount_Address1_ShippingMethod.cs",
+              "CrmId": "a80b0dea-3b85-4316-991c-716cea56ec42"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address2_addresstypecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address2_AddressType.cs",
+              "Name": "eAccount_Address2_AddressType.cs",
+              "CrmId": "fb648740-bd41-49b0-9d95-78250cd7caad"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address2_freighttermscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address2_FreightTerms.cs",
+              "Name": "eAccount_Address2_FreightTerms.cs",
+              "CrmId": "4bc75d3c-0455-4a31-9f79-f147556af233"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_address2_shippingmethodcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Address2_ShippingMethod.cs",
+              "Name": "eAccount_Address2_ShippingMethod.cs",
+              "CrmId": "2206ea4c-60ec-41ed-a519-a5d101146a9d"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_businesstypecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_BusinessType.cs",
+              "Name": "eAccount_BusinessType.cs",
+              "CrmId": "2e473a56-777e-4b99-80df-3c8d27d645f7"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_accountcategorycode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Category.cs",
+              "Name": "eAccount_Category.cs",
+              "CrmId": "b994cdd8-5ce9-4ab9-bdd3-8888ebdb0407"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_chargetype",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_ChargeType.cs",
+              "Name": "eAccount_ChargeType.cs",
+              "CrmId": "64d60a96-aabb-ea11-80e6-000c29d4109b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_accountclassificationcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Classification.cs",
+              "Name": "eAccount_Classification.cs",
+              "CrmId": "cd8524cc-edb4-4e41-b592-d3b8196cb9a2"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_companysize",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_CompanySize.cs",
+              "Name": "eAccount_CompanySize.cs",
+              "CrmId": "b981acc4-232c-ed11-80ed-000c29d4109b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_connectivitytocustomerpremises",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_ConnectivityToCustomerPremises.cs",
+              "Name": "eAccount_ConnectivityToCustomerPremises.cs",
+              "CrmId": "bafba2b1-93c1-e411-80e5-9ea66f2b7945"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_customersizecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_CustomerSize.cs",
+              "Name": "eAccount_CustomerSize.cs",
+              "CrmId": "ff25bcba-62e1-4079-8521-db991d31ebeb"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_industrycode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Industry.cs",
+              "Name": "eAccount_Industry.cs",
+              "CrmId": "93476eab-1253-4863-96d8-503d07a8e775"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_ownershipcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Ownership.cs",
+              "Name": "eAccount_Ownership.cs",
+              "CrmId": "006d6631-1187-4a19-af26-71457e21dcb8"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_paymenttermscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_PaymentTerms.cs",
+              "Name": "eAccount_PaymentTerms.cs",
+              "CrmId": "4c4c1661-fe77-4b68-8bc4-0baf1a348a6c"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_performancestatus",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_PerformanceStatus.cs",
+              "Name": "eAccount_PerformanceStatus.cs",
+              "CrmId": "579cdea6-232c-ed11-80ed-000c29d4109b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_preferredappointmentdaycode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_PreferredDay.cs",
+              "Name": "eAccount_PreferredDay.cs",
+              "CrmId": "53f9933c-18a0-40a6-b4a5-b9610a101735"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_preferredcontactmethodcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_PreferredMethodOfContact.cs",
+              "Name": "eAccount_PreferredMethodOfContact.cs",
+              "CrmId": "44c976c0-bab3-4241-b5d1-6b1d0cd79103"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_preferredappointmenttimecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_PreferredTime.cs",
+              "Name": "eAccount_PreferredTime.cs",
+              "CrmId": "dfd424f8-d2ee-45f1-95bf-715210da0fc9"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_profiletype",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_ProfileType.cs",
+              "Name": "eAccount_ProfileType.cs",
+              "CrmId": "009de830-697f-e411-80e2-ada04b02f9d0"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_customertypecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_RelationshipType.cs",
+              "Name": "eAccount_RelationshipType.cs",
+              "CrmId": "3629e642-b895-41ab-8f1d-ea5bfa30e992"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_shippingmethodcode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_ShippingMethod.cs",
+              "Name": "eAccount_ShippingMethod.cs",
+              "CrmId": "4abf3669-a3f6-420e-8485-346e675e048b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_statecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Status.cs",
+              "Name": "eAccount_Status.cs",
+              "CrmId": "19a053ce-dca3-4680-8f0b-d9fc12c3085b"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_statuscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_StatusReason.cs",
+              "Name": "eAccount_StatusReason.cs",
+              "CrmId": "75ad977d-6f28-4c5c-ae44-7816d366ba21"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_subscribedservices",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_SubscribedServices.cs",
+              "Name": "eAccount_SubscribedServices.cs",
+              "CrmId": "d071d73c-93c1-e411-80e5-9ea66f2b7945"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "account_territorycode",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_TerritoryCode.cs",
+              "Name": "eAccount_TerritoryCode.cs",
+              "CrmId": "db691def-5532-4295-9478-86f2fb18cd25"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "sbt_account_sbt_type",
+              "IsGlobal": false,
+              "EntityLogicalName": "account",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eAccount_Type.cs",
+              "Name": "eAccount_Type.cs",
+              "CrmId": "c03491a9-8731-e411-80d7-b4a475aca380"
+            }
+          ],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": false,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "PluginCodeTest.dll",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\PluginCodeTest.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [
+              {
+                "Name": "System.Buffers",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Numerics.Vectors",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Runtime.CompilerServices.Unsafe",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Memory",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Text.Encodings.Web",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Threading.Tasks.Extensions",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "Microsoft.Bcl.AsyncInterfaces",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.ValueTuple",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "System.Text.Json",
+                "IncludeInILMerge": true
+              }
+            ],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [
+                    {
+                      "_images": [],
+                      "LogicalName": "sdkmessageprocessingstep",
+                      "SdkMessageFilterPrimaryObjectTypeCode": "account",
+                      "SdkMessageFilterSecondaryObjectTypeCode": "none",
+                      "Id": "00000000-0000-0000-0000-000000000000",
+                      "Attributes": [
+                        {
+                          "Key": "name",
+                          "Value": "Update - Account - Post-operation"
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"20bebb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":40}}
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "sdkmessagefilterid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"23c9bb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        }
+                      ],
+                      "FormattedValues": [],
+                      "RelatedEntities": [],
+                      "KeyAttributes": []
+                    }
+                  ],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 1,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "00000000-0000-0000-0000-000000000000",
+                  "Attributes": [
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "PluginCodeTest.AccountPerformanceStatus"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "PluginCodeTest.AccountPerformanceStatus"
+                    },
+                    {
+                      "Key": "name",
+                      "Value": "PluginCodeTest.AccountPerformanceStatus"
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"1094af15-252c-ed11-80ed-000c29d4109b"},"LogicalName":"pluginassembly","KeyAttributes":[]}
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "1094af15-252c-ed11-80ed-000c29d4109b",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                },
+                {
+                  "Key": "name",
+                  "Value": "PluginCodeTest"
+                },
+                {
+                  "Key": "modifiedon",
+                  "Value": "2022-09-04T07:42:11Z"
+                },
+                {
+                  "Key": "createdon",
+                  "Value": "2022-09-04T07:42:11Z"
+                },
+                {
+                  "Key": "publickeytoken",
+                  "Value": "dffd3cae948fa362"
+                },
+                {
+                  "Key": "culture",
+                  "Value": "neutral"
+                },
+                {
+                  "Key": "pluginassemblyid",
+                  "Value": {"$type":"System.Guid","$value":"1094af15-252c-ed11-80ed-000c29d4109b"}
+                },
+                {
+                  "Key": "version",
+                  "Value": "1.0.0.0"
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "AlteraterDev",
+      "OrganizationDisplayName": "AlteraterDev",
+      "UserFriendlyName": "https://crm365.altercomglobal.com/AlteraterDev",
+      "SelectedSolution": {
+        "UniqueName": "AccountOnly",
+        "Id": "cf042c95-1d2c-ed11-80ed-000c29d4109b",
+        "LogicalName": "solution",
+        "Name": "AccountOnly"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "ProxyEnumClassesPath": "\\Enums",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ResourcesPath": "\\Web",
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}
